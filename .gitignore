@@ -1,0 +1,17 @@
+# --- Secrets: never commit real credentials ---
+/app/secrets.php
+
+# --- Cron single-instance lock files ---
+/automations/cronjobs/locks/
+
+# --- Composer dependencies (install with `composer install`) ---
+/vendor/
+
+# --- Packaged live snapshot ---
+/lastscriptfromlive.zip
+*.zip
+
+# --- Logs, cookies and temp files ---
+*.log
+cookies.txt
+.DS_Store
